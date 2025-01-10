@@ -356,12 +356,11 @@
 
 
 /* MOBILE DESIGN FOR MAX-WIDTH: 375PX */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 
     body {
         text-align: center;
     }
-
 
     nav {
         display: flex;
@@ -436,6 +435,7 @@
         background-image: url(images/bg-curve-mobile.svg);
         background-repeat: no-repeat;
         height: 60px;
+        background-size: 100%;
     }
 
     .second_div_img {
@@ -494,7 +494,7 @@
     }
 
     .early_access {
-        width: 375px;
+        width: 100%;
         height: 350px;
         flex-direction: column;
         padding: 0;
